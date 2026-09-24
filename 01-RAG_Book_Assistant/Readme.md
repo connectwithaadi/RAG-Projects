@@ -1,4 +1,4 @@
-`# 📚 RAG Book Assistant
+# 📚 RAG Book Assistant
 
 A document-based **Retrieval-Augmented Generation (RAG)** application that allows users to upload PDF books and ask questions about their content.
 
@@ -8,7 +8,7 @@ The application retrieves relevant information from the uploaded document using 
 
 ### 🖥️ Application Preview
 
-![RAG Book Assistant](/Screenshots/rag.png)
+![RAG Book Assistant](Screenshots/rag.png)
 ---
 
 
