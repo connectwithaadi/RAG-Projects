@@ -8,7 +8,7 @@ The application retrieves relevant information from the uploaded document using 
 
 ### 🖥️ Application Preview
 
-![Credit Risk Assessment App](screenshots/rag.png)
+![RAG Book Assistant](screenshots/rag.png)
 ---
 
 
