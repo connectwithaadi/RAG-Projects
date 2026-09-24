@@ -8,7 +8,7 @@ The application retrieves relevant information from the uploaded document using 
 
 ### 🖥️ Application Preview
 
-![RAG Book Assistant](screenshots/rag.png)
+![RAG Book Assistant](/Screenshots/rag.png)
 ---
 
 
