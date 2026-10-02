@@ -1,0 +1,40 @@
+# Python version: 3.10+
+# Multi-Agent Research System
+# - OpenAI LLMs
+# - 2 ReAct agents
+# - Tavily web-search tool
+# - BeautifulSoup web-scraping tool
+# - LangChain LCEL / Runnables
+# - LangGraph agent orchestration
+# - Environment-variable based API keys
+
+# Core LangChain
+langchain>=1.0,<2.0
+langchain-core>=1.0,<2.0
+langchain-openai>=1.0,<2.0
+
+# ReAct / agent orchestration
+langgraph>=1.0,<2.0
+
+# Tavily integration
+langchain-tavily>=0.2.18,<0.3
+tavily-python>=0.7,<1.0
+
+# BeautifulSoup web scraping
+beautifulsoup4>=4.12,<5
+lxml>=5.0,<7
+
+# HTTP requests for custom web-scraping tools
+requests>=2.32,<3
+
+# Environment variables (.env)
+python-dotenv>=1.0,<2
+
+# Data validation / structured agent outputs
+pydantic>=2.7,<3
+
+# Optional but useful for async HTTP/tool execution
+httpx>=0.27,<1
+
+# Type hints / configuration helpers
+typing-extensions>=4.12,<5
