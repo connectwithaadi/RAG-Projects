@@ -13,7 +13,7 @@ The project demonstrates how multiple AI agents and LLM chains can work together
 
 ### 🖥️ Application Preview
 
-![Multi AI Agent (Screenshots/multi.png)
+![Multi agent Assistant](Screenshots/multi.png)
 ---
 
 
