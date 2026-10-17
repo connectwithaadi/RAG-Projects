@@ -1,0 +1,18 @@
+{
+    "filename": "aadil_resume.pdf",
+    "pages": 2,
+    "content": [
+        {
+            "page": 1,
+            "text": "ADITYA KUMAR SINGH +91-9926350262 | aaditya2357@gmail.com | LinkedIn | GitHub EDUCATION Madhav Institute of Technology & Science Gwalior, India B. Tech in Artificial Intelligence and Machine Learning Aug. 2023 – Present EXPERIENCE AI Development Intern | Zipbolt Innovations Sep. 2025 – Jan. 2026 • Worked on ZipCRM, an internal CRM platform built using the PERN stack (PostgreSQL, Express, React, Node.js), contributing to backend APIs, database design, and workflow automation. • Developed a full-stack EV rental management system, handling backend services, business logic, and database schema while integrating AI-powered decision workflows. • Implemented event-driven backend and AI orchestration using Inngest, enabling scalable background jobs, async task execution, and intelligent automation inside the CRM. PROJECTS Legal RAG Assistant • Tech Stack: Python, LangChain, FAISS, OpenAI Embeddings, PyMuPDF, Streamlit, AutoGen • Built a Legal RAG Assistant using LangChain, FAISS, and OpenAI Embeddings. • Implemented PDF processing, semantic search, and context-aware question answering. • Developed a Streamlit interface with multi-agent (AutoGen) workflow support. Decoder-Only Transformer (GPT-style LLM) from Scratch • Tech Stack: Python, PyTorch, NumPy, Transformers (for Tokenizers), Jupyter Notebook • Built a GPT-style Decoder-Only Transformer from scratch using PyTorch. • Implemented multi-head self-attention, positional encoding, and a complete training pipeline. • Developed a text generation model with tokenization, training, and inference. Multimodal Medical Image Fusion for Brain Tumor Detection • Tech Stack: Python, OpenCV, TensorFlow/Keras, VGG-19, NumPy, Flask, PyWavelets, Jupyter Notebook • Developed a CT–MRI brain image fusion system using DWT and VGG-19. • Implemented image registration and tumor segmentation using OpenCV. • Built a Flask-based application for automated medical image processing. ACHIEVEMENT Ghummakad – AI-powered Travel Assistant (Team Evolutio – 6th place, Code Coalescence University Hackathon) • Built an AI-powered assistant recommending affordable Indian alternatives to expensive foreign destinations using cosine similarity and ML-based recommendations. • Integrated real-time safety alerts, eco-friendly suggestions, and revenue tools for travel businesses. • Achieved complete MVP in 12 hours, collaborating with 5 team members under high-pressure hackathon constraints. TECHNICAL SKILLS Programming: Python, C++, JavaScript, SQL, R AI/ML & Data Science: TensorFlow, PyTorch, scikit-learn, NumPy, Pandas, Matplotlib, NLP, Deep Learning GenAI: LangChain, crewAI, Autogen, Ollama, n8n Research & Analytics: Market Research, Data Analysis (Excel, Google Sheets, PowerBI), Statistics & Visualization (regression, charts/graphs)",
+            "words": 365,
+            "characters": 2787
+        },
+        {
+            "page": 2,
+            "text": "CERTIFICATIONS • Complete Data Science, Machine Learning, DL, NLP Bootcamp • AI in Social Media - SIP, MITS Gwalior -Dec 2024 HOBBIES Content Creation | Connect With Aadi Jan. 2025 – Present • Built a personal brand around AI, technology, and entrepreneurship by creating educational content for Instagram and YouTube. • Produced AI-focused tutorials and short-form content, simplifying complex concepts while applying data-driven content strategies to improve audience engagement. • Strengthened expertise in AI research, digital marketing, storytelling, and community engagement through practical, real- world content creation.",
+            "words": 87,
+            "characters": 629
+        }
+    ]
+}

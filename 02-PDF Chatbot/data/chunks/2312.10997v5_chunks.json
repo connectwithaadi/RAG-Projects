@@ -1,0 +1,91 @@
+{
+    "filename": "2312.10997v5.pdf",
+    "strategy": "recursive",
+    "total_chunks": 14,
+    "chunks": [
+        {
+            "chunk_id": 1,
+            "page": 1,
+            "text": "1 Retrieval-Augmented Generation for Large Language Models: A Survey Yunfan Gaoa, Yun Xiongb, Xinyu Gaob, Kangxiang Jiab, Jinliu Panb, Yuxi Bic, Yi Daia, Jiawei Suna, Meng Wangc, and Haofen Wang a,c aShanghai Research Institute for Intelligent Autonomous Systems, Tongji University bShanghai Key Laboratory of Data Science, School of Computer Science, Fudan University cCollege of Design and Innovation, Tongji University Abstract—Large Language Models (LLMs) showcase impres- sive capabilities but",
+            "length": 498
+        },
+        {
+            "chunk_id": 2,
+            "page": 1,
+            "text": "Tongji University Abstract—Large Language Models (LLMs) showcase impres- sive capabilities but encounter challenges like hallucination, outdated knowledge, and non-transparent, untraceable reasoning processes. Retrieval-Augmented Generation (RAG) has emerged as a promising solution by incorporating knowledge from external databases. This enhances the accuracy and credibility of the generation, particularly for knowledge-intensive tasks, and allows for continuous knowledge updates and",
+            "length": 488
+        },
+        {
+            "chunk_id": 3,
+            "page": 1,
+            "text": "particularly for knowledge-intensive tasks, and allows for continuous knowledge updates and integration of domain- specific information. RAG synergistically merges LLMs’ intrin- sic knowledge with the vast, dynamic repositories of external databases. This comprehensive review paper offers a detailed examination of the progression of RAG paradigms, encompassing the Naive RAG, the Advanced RAG, and the Modular RAG. It meticulously scrutinizes the tripartite foundation of RAG frameworks, which",
+            "length": 495
+        },
+        {
+            "chunk_id": 4,
+            "page": 1,
+            "text": "and the Modular RAG. It meticulously scrutinizes the tripartite foundation of RAG frameworks, which includes the retrieval, the generation and the augmentation techniques. The paper highlights the state-of-the- art technologies embedded in each of these critical components, providing a profound understanding of the advancements in RAG systems. Furthermore, this paper introduces up-to-date evalua- tion framework and benchmark. At the end, this article delineates the challenges currently faced",
+            "length": 496
+        },
+        {
+            "chunk_id": 5,
+            "page": 1,
+            "text": "tion framework and benchmark. At the end, this article delineates the challenges currently faced and points out prospective avenues for research and development 1. Index Terms—Large language model, retrieval-augmented gen- eration, natural language processing, information retrieval I. INTRODUCTION L ARGE language models (LLMs) have achieved remark- able success, though they still face significant limitations, especially in domain-specific or knowledge-intensive tasks [1], notably producing",
+            "length": 494
+        },
+        {
+            "chunk_id": 6,
+            "page": 1,
+            "text": "limitations, especially in domain-specific or knowledge-intensive tasks [1], notably producing “hallucinations” [2] when handling queries beyond their training data or requiring current information. To overcome challenges, Retrieval-Augmented Generation (RAG) enhances LLMs by retrieving relevant document chunks from external knowledge base through semantic similarity calcu- lation. By referencing external knowledge, RAG effectively reduces the problem of generating factually incorrect content.",
+            "length": 498
+        },
+        {
+            "chunk_id": 7,
+            "page": 1,
+            "text": "external knowledge, RAG effectively reduces the problem of generating factually incorrect content. Its integration into LLMs has resulted in widespread adoption, establishing RAG as a key technology in advancing chatbots and enhancing the suitability of LLMs for real-world applica- tions. RAG technology has rapidly developed in recent years, and the technology tree summarizing related research is shown Corresponding Author.Email:haofen.wang@tongji.edu.cn 1Resources are available at",
+            "length": 486
+        },
+        {
+            "chunk_id": 8,
+            "page": 1,
+            "text": "research is shown Corresponding Author.Email:haofen.wang@tongji.edu.cn 1Resources are available at https://github.com/Tongji-KGLLM/ RAG-Survey in Figure 1. The development trajectory of RAG in the era of large models exhibits several distinct stage characteristics. Initially, RAG’s inception coincided with the rise of the Transformer architecture, focusing on enhancing language models by incorporating additional knowledge through Pre- Training Models (PTM). This early stage was characterized by",
+            "length": 499
+        },
+        {
+            "chunk_id": 9,
+            "page": 1,
+            "text": "additional knowledge through Pre- Training Models (PTM). This early stage was characterized by foundational work aimed at refining pre-training techniques [3]–[5].The subsequent arrival of ChatGPT [6] marked a pivotal moment, with LLM demonstrating powerful in context learning (ICL) capabilities. RAG research shifted towards providing better information for LLMs to answer more com- plex and knowledge-intensive tasks during the inference stage, leading to rapid development in RAG studies. As",
+            "length": 495
+        },
+        {
+            "chunk_id": 10,
+            "page": 1,
+            "text": "tasks during the inference stage, leading to rapid development in RAG studies. As research progressed, the enhancement of RAG was no longer limited to the inference stage but began to incorporate more with LLM fine-tuning techniques. The burgeoning field of RAG has experienced swift growth, yet it has not been accompanied by a systematic synthesis that could clarify its broader trajectory. This survey endeavors to fill this gap by mapping out the RAG process and charting its evolution and",
+            "length": 493
+        },
+        {
+            "chunk_id": 11,
+            "page": 1,
+            "text": "survey endeavors to fill this gap by mapping out the RAG process and charting its evolution and anticipated future paths, with a focus on the integration of RAG within LLMs. This paper considers both technical paradigms and research methods, summarizing three main research paradigms from over 100 RAG studies, and analyzing key technologies in the core stages of “Retrieval,” “Generation,” and “Augmentation.” On the other hand, current research tends to focus more on methods, lacking analysis and",
+            "length": 499
+        },
+        {
+            "chunk_id": 12,
+            "page": 1,
+            "text": "On the other hand, current research tends to focus more on methods, lacking analysis and summarization of how to evaluate RAG. This paper compre- hensively reviews the downstream tasks, datasets, benchmarks, and evaluation methods applicable to RAG. Overall, this paper sets out to meticulously compile and categorize the foundational technical concepts, historical progression, and the spectrum of RAG methodologies and applications that have emerged post-LLMs. It is designed to equip readers and",
+            "length": 498
+        },
+        {
+            "chunk_id": 13,
+            "page": 1,
+            "text": "RAG methodologies and applications that have emerged post-LLMs. It is designed to equip readers and professionals with a detailed and structured understanding of both large models and RAG. It aims to illuminate the evolution of retrieval augmentation techniques, assess the strengths and weaknesses of various approaches in their respective contexts, and speculate on upcoming trends and innovations. Our contributions are as follows: • In this survey, we present a thorough and systematic review of",
+            "length": 499
+        },
+        {
+            "chunk_id": 14,
+            "page": 1,
+            "text": "Our contributions are as follows: • In this survey, we present a thorough and systematic review of the state-of-the-art RAG methods, delineating its evolution through paradigms including naive RAG, arXiv:2312.10997v5 [cs.CL] 27 Mar 2024",
+            "length": 236
+        }
+    ]
+}
