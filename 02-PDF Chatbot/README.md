@@ -191,6 +191,11 @@ Before deployment:
 - Test PDF upload and indexing in the deployed environment.
 - Account for temporary local storage and available memory when building the vector index.
 
+## 🏗️ Screenshot
+
+
+![PDF Chatbot Application Screenshot](screenshots/Screenshot1.png)
+
 ## 🚀 Future Improvements
 
 - Support multiple PDFs and document collections.
