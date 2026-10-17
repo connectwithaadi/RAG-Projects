@@ -20,7 +20,7 @@ The project combines semantic search using **FAISS**, text embeddings using **Se
 
 The application follows a Retrieval-Augmented Generation (RAG) pipeline to retrieve relevant information from PDF documents and generate context-aware answers.
 
-![PDF Chatbot Application Screenshot](screenshots/Screenshot.png)
+![PDF Chatbot Application Screenshot](screenshots/screenshot.png)
 
 ### Workflow
 
